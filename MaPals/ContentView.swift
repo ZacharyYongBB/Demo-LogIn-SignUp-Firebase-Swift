@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var email: String = ""
     @State var password: String = ""
     
+        
     var body: some View {
        
         
@@ -46,20 +47,12 @@ struct ContentView: View {
                     
                     Spacer()
                     
-                    Button(action: {
-                        
-                            },
-                           
-                    label: {
-                        Text("Log In")
-                            .padding(.vertical)
-                            .frame(width: 70.0, height: 50.0)
-                            .background(Color.brown.cornerRadius(10))
-                            .foregroundColor(.white)
-                            .font(.headline)
-                        
-                            })
+                    NavigationLink("Log In", destination: MapScreen())
+                    
+                    
                     Spacer()
+                    
+                    
                     
                 }
                 
@@ -77,6 +70,26 @@ struct ContentView: View {
     }
     
 }
+
+
+
+
+struct MapScreen: View {
+    var body: some View {
+        
+        ZStack {
+            
+            Color.green.edgesIgnoringSafeArea(.all)
+            
+            
+            Text("hello this is map screen")
+            
+        }.navigationTitle("Map")
+        
+    }
+}
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
