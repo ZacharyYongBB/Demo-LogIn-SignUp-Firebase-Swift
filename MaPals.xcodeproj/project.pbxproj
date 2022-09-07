@@ -38,6 +38,8 @@
 		B688C29728C8D3560037885B /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B688C29628C8D3560037885B /* FirebaseRemoteConfigSwift */; };
 		B688C29928C8D3560037885B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B688C29828C8D3560037885B /* FirebaseStorage */; };
 		B688C29B28C8D3560037885B /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B688C29A28C8D3560037885B /* FirebaseStorageCombine-Community */; };
+		B688C29D28C8DFDF0037885B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B688C29C28C8DFDF0037885B /* GoogleService-Info.plist */; };
+		B688C29F28C95B810037885B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688C29E28C95B810037885B /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		B688C25928C8C2560037885B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B688C25B28C8C2580037885B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B688C25E28C8C2580037885B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B688C29C28C8DFDF0037885B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B688C29E28C95B810037885B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,9 @@
 			children = (
 				B688C25728C8C2560037885B /* MaPalsApp.swift */,
 				B688C25928C8C2560037885B /* ContentView.swift */,
+				B688C29E28C95B810037885B /* SignUpView.swift */,
 				B688C25B28C8C2580037885B /* Assets.xcassets */,
+				B688C29C28C8DFDF0037885B /* GoogleService-Info.plist */,
 				B688C25D28C8C2580037885B /* Preview Content */,
 			);
 			path = MaPals;
@@ -213,6 +219,7 @@
 			files = (
 				B688C25F28C8C2580037885B /* Preview Assets.xcassets in Resources */,
 				B688C25C28C8C2580037885B /* Assets.xcassets in Resources */,
+				B688C29D28C8DFDF0037885B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B688C25A28C8C2560037885B /* ContentView.swift in Sources */,
+				B688C29F28C95B810037885B /* SignUpView.swift in Sources */,
 				B688C25828C8C2560037885B /* MaPalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
